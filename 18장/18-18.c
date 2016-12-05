@@ -1,0 +1,1 @@
+#include <stdio.h>#define TRI(A,H) ((A) * (H) / 2)int main(void){        int base,height;        scanf("%d,%d",&base,&height);     printf("%d¥n",TRI(base,height));        return 0; }

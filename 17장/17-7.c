@@ -1,0 +1,1 @@
+#include <stdio.h>int main(void){   char str[50];   FILE *file;   file = fopen("test.txt", "r");   fscanf(file,"%s", str);   fclose(file);   printf("%s\n", str);   return 0;}
